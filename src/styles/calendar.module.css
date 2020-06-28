@@ -1,4 +1,5 @@
 .calendarContainer {
     position: absolute;
     background-color: red;
+    width: 20%;
 }

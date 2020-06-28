@@ -4,7 +4,8 @@ import styles from './styles/styles.module.css'
 import moment from 'moment'
 
 export default function Datepicker(props) {
-  const [doesShowDatepicker, setState] = React.useState(false)
+  const [doesShowDatepicker, setState] = React.useState(false);
+  const [date, setDate] = React.useState('')
 
   console.log('render component')
   return (
@@ -16,10 +17,10 @@ export default function Datepicker(props) {
         className={styles.mainContainer}
         onClick={() => setState(!doesShowDatepicker)}
       >
-        {moment(new Date()).format('DD/MM/YYYY')}
+        {date}
       </div>
-      <Calendar />
-      {/* {doesShowDatepicker ? <Calendar /> : null} */}
+      <Calendar date={date} setDate={setDate} />
+      {/* {doesShowDatepicker ? <Calendar date={date} setDate={setDate} /> : null} */}
     </div>
   )
 }

@@ -6,14 +6,14 @@
 }
 
 .mainContainer {
-  margin: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  width: 50%;
   padding: 0.5em;
   border: 2px solid #000;
   font-size: 2em;
   text-align: center;
+  background-color: green;
 }
 
-.calendar {
-  position: absolute;
-  background-color: red;
-}

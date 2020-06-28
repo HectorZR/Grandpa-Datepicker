@@ -4,7 +4,7 @@
   "description": "React datepicker to use in projects",
   "author": "Hector Zurga",
   "license": "MIT",
-  "repository": "JoseHpZ/Grandpa-Datepicker",
+  "repository": "https://github.com/JoseHpZ/Grandpa-Datepicker",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
